@@ -12,7 +12,13 @@
     align-items: center;
 }
 
-.services__item::before {
+.services__image {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+/* .services__item::before {
     content: "";
     width: 90px;
     height: 90px;
@@ -23,18 +29,18 @@
 
 .services__sale::before {
     margin-bottom: 15px;
-    background-image: url(/img/propop-5.webp);
+    background-image: url("/img/propop-5.webp");
 }
 
 .services__rent::before {
     margin-bottom: 15px;
-    background-image: url(/img/propop-4.webp);
+    background-image: url("/img/propop-4.webp");
 }
 
 .services__mounting::before {
     margin-bottom: 15px;
-    background-image: url(/img/propop-3.webp);
-}
+    background-image: url("/img/propop-3.webp");
+} */
 
 @media(max-width: 550px) {
     .services {

@@ -8,7 +8,14 @@
         width: 350px;
         height: 350px;
     } 
+
+    .press-wall__table-title {
+        letter-spacing: -0.5px;
+    }
     
+    .press-wall__table-title td{
+        min-width: 130px;
+    }
 }
 
 @media(max-width: 550px) {

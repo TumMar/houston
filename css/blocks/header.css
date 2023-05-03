@@ -99,6 +99,7 @@
 
     .header__contacts {
         display: flex;
+        width: 100%;
         text-align: center;
         flex-direction: column;
     }

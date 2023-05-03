@@ -122,7 +122,10 @@ img {
 /* стилизация таблицы */
 .table-wrap {
     overflow: auto;
+    margin-right: -15px;
+    padding-right: 15px;
 }
+
 .table {
     margin: 0 auto;
     margin-top: 30px;
@@ -136,13 +139,13 @@ img {
     border-radius: 4px;
     box-shadow: 0 0 5px var(--blue-light);
     overflow-x: hidden;
-   
 }
 
 .table__caption {
+    text-align: center;
+    margin-top: 35px;
     margin-bottom: 10px;
     font-weight: 700;
-    width: 300px;
 }
 
 .table__title {
@@ -158,6 +161,8 @@ img {
 tbody tr:hover {
     background: var(--blue-light);
 }
+
+
 
    /* Блок контактов */
 .block-contacts {
@@ -180,7 +185,7 @@ tbody tr:hover {
 
 @media(max-width: 768px) {
     .container {
-        max-width: 550px;
+        /* max-width: 550px; */
     }
 
     .section__content {
@@ -192,14 +197,27 @@ tbody tr:hover {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .table {
+        line-height: 18px;
+    }
+
+    .table__title {
+        font-size: 12px;
+        /* letter-spacing: -0.1px; */
+    }
+
+    .table__body {
+        font-size: 14px;
+    }
 }
 
 
 
 @media(max-width: 550px) {
     .container {
-        max-width: 320px;
-        padding: 0 5px;
+        /* max-width: 320px; */
+        padding: 0 15px;
     }
 
     .title {
