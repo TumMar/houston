@@ -1,0 +1,51 @@
+.services {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.services__item {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__item::before {
+    content: "";
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.services__sale::before {
+    margin-bottom: 15px;
+    background-image: url(/img/propop-5.webp);
+}
+
+.services__rent::before {
+    margin-bottom: 15px;
+    background-image: url(/img/propop-4.webp);
+}
+
+.services__mounting::before {
+    margin-bottom: 15px;
+    background-image: url(/img/propop-3.webp);
+}
+
+@media(max-width: 550px) {
+    .services {
+        flex-direction: column;
+    }
+
+    .services__item {
+        margin-bottom: 50px;
+        flex-basis: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

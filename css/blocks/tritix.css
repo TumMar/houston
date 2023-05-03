@@ -1,0 +1,21 @@
+.tritix {
+    background-color: var(--dark);
+    color: var(--black);
+}
+
+.tritix__img {
+    width: 450px;
+}
+
+/* .tritix__content {
+    margin-left: 25px;
+    margin-top: 50px;
+} */
+
+@media(max-width: 500px) {
+    .tritix__description {
+        justify-content: center
+    }
+
+}
+

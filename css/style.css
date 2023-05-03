@@ -1,0 +1,13 @@
+@import "blocks/global.css";
+
+@import "blocks/header.css";
+@import "blocks/construction.css";
+@import "blocks/delivery.css";
+@import "blocks/services.css";
+@import "blocks/tritix.css";
+@import "blocks/blob.css";
+@import "blocks/press-wall.css";
+@import "blocks/roll-up.css";
+@import "blocks/wood.css";
+@import "blocks/feedback.css";
+@import "blocks/footer.css";

@@ -1,0 +1,162 @@
+.header {
+    background-color: var(--blue);
+    color: var(--Black);
+    margin: 0 auto;
+    /* background-image: url(/img/abstract_minimalism-2933.png);
+    background-repeat: no-repeat;
+    background-position: 0 0; */
+    /* height: 900px; */
+    text-align: center;
+}
+
+.header__wrapp {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__top {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    width: 70%;
+}
+
+.nav__list {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nav__item {
+    margin-right: 15px;
+}
+
+.nav__link {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: var(--white);
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    width: 30%;
+}
+
+.header__contacts-link {
+    margin-right: 15px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.header__contacts-link:hover {
+    color: var(--white);
+}
+
+.header__intro {
+    padding-bottom: 100px;
+}
+
+.header__intro-dis {
+    margin-top: 190px;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 150%;
+}
+
+/* меню */
+.header__nav-toggle {
+    display: none;
+}
+
+
+@media(max-width: 768px) {
+    .header {
+        background-image: none;
+        height: 450px;
+    }
+
+    .header__top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav__list {
+        flex-direction: column;
+    }
+
+    .header__contacts {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .header__intro-dis {
+        margin-top: 40px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    /* меню */
+    .header__nav-toggle {
+        position: absolute;
+        z-index: 30;
+        top: 45px;
+        right: -2px;
+        margin-right: 59px;
+        z-index: 2;
+        display: block;
+        font-size: 0;
+        width: 30px;
+        height: 22px;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+
+    .header__nav-toggle-row {
+        top: 50%;
+        left: 50%;
+    }
+
+    .header__nav-toggle-row, .header__nav-toggle-row::after, .header__nav-toggle-row::before {
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background-color: var(--color-primary);
+        transition: 0.6s;
+    }
+}
+
+@media(max-width: 550px) {
+    .header {
+        background-image: none;
+        height: 600px;
+    }
+
+    .header__contacts {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+    .header__contacts-link {
+        margin-right: 0;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}

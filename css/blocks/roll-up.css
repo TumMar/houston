@@ -1,0 +1,14 @@
+.roll-up__img {
+    width: 450px;
+}
+
+.roll-up__table {
+    width: 50%;
+}
+
+
+@media(max-width: 1068px) {
+    .roll-up__description {
+        justify-content: center
+    }
+}

@@ -1,0 +1,34 @@
+.delivery {
+    background-color: var(--dark);
+    color: var(--black);
+}
+
+.delivery__wrapper {
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 800px;
+    text-align: center;
+}
+
+.delivery__link {
+    font-weight: bold;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.delivery__link:hover {
+    color: var(--blue);
+}
+
+@media(max-width: 1068px) {
+    .delivery__wrapper {
+        width: 500px;
+    }
+}
+
+@media(max-width: 768px) {
+    .delivery__wrapper {
+        width: 320px;
+
+    }
+}

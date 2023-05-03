@@ -1,0 +1,18 @@
+.wood__img {
+    width: 450px;
+}
+
+.wood__content {
+    /* margin-left: 25px; */
+    margin-top: 25px;
+}
+
+@media(max-width: 500px) {
+    .wood__description {
+        justify-content: center
+    }
+
+    .wood__list {
+        text-align: left;
+    }
+}
